@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SenderActivity"
+    android:background="@color/cardview_light_background">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/SenderActivityToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/customDarkGray"
+        app:title="Location Sender"
+        app:titleTextColor="@color/customYellowText"
+        >
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <EditText
+        android:id="@+id/deviceNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SenderActivityToolbar"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="@color/black"
+        android:hint="Device Name"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        >
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/deviceIDEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deviceNameEditText"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/black"
+        android:hint="Device ID"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:enabled="false"
+        >
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/accountInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deviceIDEditText"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/black"
+        android:hint="Account"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:enabled="false"
+        >
+
+    </EditText>
+
+
+    <TextView
+        android:id="@+id/latitudeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/longitudeText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="40dp"
+        android:text="Latitude: "
+        android:textColor="@color/black"
+        android:textSize="18sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/longitudeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/refreshBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="40dp"
+        android:text="Longitude: "
+        android:textColor="@color/black"
+        android:textSize="18sp">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/refreshBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/custom_button"
+        android:text="Save Devıce Data">
+
+    </Button>
+
+</RelativeLayout>

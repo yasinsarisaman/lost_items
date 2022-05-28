@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReceiverActivity"
+    android:background="@color/cardview_light_background">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/ReceiverActivityToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/customDarkGray"
+        app:title="My Devices"
+        app:titleTextColor="@color/customYellowText"
+        >
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/userDeviceListRV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ReceiverActivityToolbar"
+        >
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/latitudeText"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:layout_centerHorizontal="true"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/longitudeText"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:layout_centerHorizontal="true"
+        >
+    </TextView>
+
+
+</RelativeLayout>

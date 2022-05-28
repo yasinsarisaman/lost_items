@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/yasin/AndroidStudioProjects/LostItems/app/src/main/res/drawable/custom_button.xml" value="0.11" />
+        <entry key="..\:/Users/yasin/AndroidStudioProjects/LostItems/app/src/main/res/layout/activity_choosing_role.xml" value="0.14659685863874344" />
+        <entry key="..\:/Users/yasin/AndroidStudioProjects/LostItems/app/src/main/res/layout/activity_main.xml" value="0.1641337386018237" />
+        <entry key="..\:/Users/yasin/AndroidStudioProjects/LostItems/app/src/main/res/layout/activity_receiver.xml" value="0.18" />
+        <entry key="..\:/Users/yasin/AndroidStudioProjects/LostItems/app/src/main/res/layout/activity_receiver_map.xml" value="0.24635416666666668" />
+        <entry key="..\:/Users/yasin/AndroidStudioProjects/LostItems/app/src/main/res/layout/activity_register.xml" value="0.21739130434782608" />
+        <entry key="..\:/Users/yasin/AndroidStudioProjects/LostItems/app/src/main/res/layout/activity_sender.xml" value="0.24479166666666666" />
+        <entry key="..\:/Users/yasin/AndroidStudioProjects/LostItems/app/src/main/res/layout/device_single_item.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
